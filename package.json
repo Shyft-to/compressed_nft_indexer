@@ -1,0 +1,22 @@
+{
+  "name": "shyft-activity-feed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "author": "Ish aka codinpsycho <ishkaran@shyft.to>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@shyft-to/js": "^0.2.15",
+    "@supabase/supabase-js": "^2.21.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}

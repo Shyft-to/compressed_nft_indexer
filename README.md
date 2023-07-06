@@ -1,8 +1,9 @@
 # Comprexor aka compressed_nft_indexer
 This is a demo project created for a workshop with encode club. To get started
 
+- Rename .env_example tp .env
 - Setup .env file, for this you need Supabase and a Shyft API key.
-- Setup a [Supabase](https://supabase.com/) instance
+- Setup a [Supabase](https://supabase.com/) instance using the schema.sql file
 - Get your free [Shyft API key](https://shyft.to/get-api-key) and update .env
 - Use https://serveo.net to tunnel your localhost for receiving [Callbacks](https://docs.shyft.to/start-hacking/callbacks)
 
